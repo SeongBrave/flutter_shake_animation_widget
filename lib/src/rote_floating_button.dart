@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 
 /// 创建人： Created by zhaolong
 /// 创建时间：Created by  on 2020/11/7.
@@ -24,7 +22,8 @@ class RoteFloatingButton extends StatefulWidget {
 }
 
 ////旋转变换按钮 向上弹出的效果 State实现
-class _RoteButtonPageState extends State<RoteFloatingButton> with SingleTickerProviderStateMixin {
+class _RoteButtonPageState extends State<RoteFloatingButton>
+    with SingleTickerProviderStateMixin {
   //记录是否打开
   bool isOpened = false;
 
